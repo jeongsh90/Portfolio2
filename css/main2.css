@@ -137,7 +137,8 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 .Portfolio .swiper-slide{display: flex; align-items: center; justify-content: center; padding-left:calc(15% + 350px); padding-right:15%;}
 .Portfolio .swiper-slide .slide-inner{position: relative; transform: scale(.85); overflow: hidden; filter: brightness(.25); transition: all 1s ease;}
 .Portfolio .swiper-slide-active .slide-inner{transform: scale(1); filter: brightness(1);}
-
+.Portfolio .swiper-slide .txt-box{position: absolute; left:0; bottom:0; display: flex; align-items: flex-end; justify-content: space-between; width:100%; padding:25px;}
+.Portfolio .swiper-slide .txt-box h3{font-size:45px;}
 
 .Portfolio .swiper-scrollbar{position: fixed; right:25px; top:95px; width:8px; height:calc(100vh - 285px); background: rgba(255, 255, 255, .1);; opacity: 1 !important; z-index: 10;}
 .Portfolio .swiper-scrollbar-drag{background: var(--red-Base) !important; cursor: pointer;}
