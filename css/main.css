@@ -158,3 +158,6 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 .Portfolio .prev svg{transform: rotate(180deg);}
 .Portfolio .prev {right:25px; bottom:100px;}
 .Portfolio .next {right:25px; bottom:25px;}
+
+
+.modal-type1{position: fixed; left:0; top:0; width:100%; height:100vh; background: var(--dark-100); z-index: 9999999999;}

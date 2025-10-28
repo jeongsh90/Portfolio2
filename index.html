@@ -118,7 +118,7 @@
                 <div class="container-wrap Portfolio on">
                     <div class="swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide" class="slide01">
+                            <div class="swiper-slide slide01">
                                 <div class="slide-inner">
                                     <span class="bg"><img src="./img/port_bg01.jpg"></span>
                                     <div class="txt-box">
@@ -131,7 +131,7 @@
                                 </div>
                             </div>
 
-                            <div class="swiper-slide" class="slide02">
+                            <div class="swiper-slide slide02">
                                 <div class="slide-inner">
                                     <span class="bg"><img src="./img/port_bg02.jpg"></span>
                                     <div class="txt-box">
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
 
-                            <div class="swiper-slide" class="slide03">
+                            <div class="swiper-slide slide03">
                                 <div class="slide-inner">
                                     <span class="bg"><img src="./img/port_bg03.jpg"></span>
                                     <div class="txt-box">
@@ -191,6 +191,20 @@
             </div>
         </div>
     </div>
+
+    <!-- <div class="modal-type1" id="port-03">
+        <div class="modal-inner">
+            <img src="./img/port_03.png" alt="">
+        </div>
+    </div> -->
+    <script>
+        $(document).ready(function(){
+            $('.Portfolio .slide03 .link').on('click', function(){
+                $('#port-03').addClass('on');
+            })
+        });
+    </script>
+
     <script src="./js/smoke-cursor.js"></script>
     
 </body>
