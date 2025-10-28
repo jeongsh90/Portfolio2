@@ -45,6 +45,10 @@
 .en{font-family: 'Montserrat', sans-serif !important;}
 .en2{font-family: "Noto Serif KR", serif !important;}
 .en3{font-family: "WindSong", cursive;}
+
+.bg-index{position: fixed; left:0; top:0; width:100%; height:100vh; background: url("../img/index-bg1.jpg") no-repeat center / cover; filter: brightness(.3);}
+#fluid{position: fixed; left:0; top:0; width:100%; height:100vh;}
+
 .intro{position: fixed; left:0; top:0; width:0; height:0; visibility: hidden; z-index: 9999999999;}
 .intro.on{visibility: inherit;}
 .intro .intro-wrap{position: fixed; left:0; top:0; display: flex; width:100vw; height:100vh;}
@@ -137,9 +141,10 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 
 .Portfolio .swiper-scrollbar{position: fixed; right:25px; top:95px; width:8px; height:calc(100vh - 285px); background: rgba(255, 255, 255, .1);; opacity: 1 !important; z-index: 10;}
 .Portfolio .swiper-scrollbar-drag{background: var(--red-Base) !important; cursor: pointer;}
-.Portfolio .next, .Portfolio .prev{position: fixed; display: flex; align-items: center; justify-content: center; width:65px; height:65px; z-index: 20000; border:1px solid var(--dark-500);}
-.Portfolio .next svg, .Portfolio .prev svg{width:50%; height:50%; color:var(--dark-700)}
-.Portfolio .next svg, .Portfolio .prev svg
+.Portfolio .next, .Portfolio .prev{position: fixed; display: flex; align-items: center; justify-content: center; width:65px; height:65px; z-index: 20000; border:1px solid var(--dark-500); cursor: pointer; transition: all .3s ease;}
+.Portfolio .next:hover, .Portfolio .prev:hover{background: rgba(255, 255, 255, .25);}
+.Portfolio .swiper-button-disabled{opacity: .3;}
+.Portfolio .next svg, .Portfolio .prev svg{width:50%; height:50%; color:var(--dark-700);}
 .Portfolio .prev svg{transform: rotate(180deg);}
 .Portfolio .prev {right:25px; bottom:100px;}
 .Portfolio .next {right:25px; bottom:25px;}
