@@ -129,7 +129,6 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 .container-wrap .sec5{background: var(--dark-900);}
 
 
-.Portfolio {}
 .Portfolio .swiper{width:100%; height:100%; overflow: inherit;}
 .Portfolio .swiper-slide{display: flex; align-items: center; justify-content: center; padding-left:calc(15% + 350px); padding-right:15%;}
 .Portfolio .swiper-slide .slide-inner{position: relative; transform: scale(.85); overflow: hidden; filter: brightness(.25); transition: all 1s ease;}
@@ -138,6 +137,9 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 
 .Portfolio .swiper-scrollbar{position: fixed; right:25px; top:95px; width:8px; height:calc(100vh - 285px); background: rgba(255, 255, 255, .1);; opacity: 1 !important; z-index: 10;}
 .Portfolio .swiper-scrollbar-drag{background: var(--red-Base) !important; cursor: pointer;}
-.Portfolio .next, .Portfolio .prev{position: fixed; width:65px; height:65px; z-index: 20000;}
-.Portfolio .prev {right:25px; bottom:100px;  border:1px solid red;}
-.Portfolio .next {right:25px; bottom:25px;  border:1px solid red;}
+.Portfolio .next, .Portfolio .prev{position: fixed; display: flex; align-items: center; justify-content: center; width:65px; height:65px; z-index: 20000; border:1px solid var(--dark-500);}
+.Portfolio .next svg, .Portfolio .prev svg{width:50%; height:50%; color:var(--dark-700)}
+.Portfolio .next svg, .Portfolio .prev svg
+.Portfolio .prev svg{transform: rotate(180deg);}
+.Portfolio .prev {right:25px; bottom:100px;}
+.Portfolio .next {right:25px; bottom:25px;}
