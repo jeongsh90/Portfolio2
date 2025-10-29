@@ -58,7 +58,7 @@ html, body {
 .intro .intro-wrap{position: fixed; left:0; top:0; display: flex; width:100vw; height:100vh;}
 .intro .intro-wrap .cont-wrap{display: flex; flex-wrap: wrap; flex:1 1 0; min-height:auto;}
 .intro .intro-wrap .cont{display: flex; overflow: hidden;}
-.intro .intro-wrap .cont-inner{position: relative; display: flex; align-items: center; justify-content: center; flex:1 1 auto; padding:50px; text-align: center; background: var(--dark-50); overflow: hidden; transition: all .95s;}
+.intro .intro-wrap .cont-inner{position: relative; display: flex; align-items: center; justify-content: center; flex:1 1 auto; padding:50px; text-align: center; background: var(--dark-50); overflow: hidden; transition: all .5s ease-in-out;}
 .intro .intro-wrap .cont1{flex-basis: 40%; height:60%;}
 .intro .intro-wrap .cont2{flex-basis: 60%; height:60%;}
 .intro .intro-wrap .cont3{flex-basis: 40%; height:40%;}
