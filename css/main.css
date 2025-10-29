@@ -143,7 +143,7 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 .Portfolio .swiper-slide .txt-box{position: absolute; left:0; bottom:0; display: flex; align-items: flex-end; justify-content: space-between; width:100%; padding:50px;}
 .Portfolio .swiper-slide .txt-box h3{display: flex; flex-direction: column; gap:10px; font-size:45px; line-height: 1;}
 .Portfolio .swiper-slide .txt-box h3 .desc1{font-size:18px;}
-.Portfolio .swiper-slide .txt-box h3 .desc2{font-weight: 900;}
+.Portfolio .swiper-slide .txt-box h3 .desc2{font-weight: 400;}
 .Portfolio .swiper-slide .link{display: flex; align-items: center; gap:15px; font-size:21px; font-weight: 600; transition: all .3s ease;}
 .Portfolio .swiper-slide .link i{display: flex; align-items: center; justify-content: center; transition: all .3s ease;}
 .Portfolio .swiper-slide .link:hover{color: var(--red-Base); font-weight: 600;}
