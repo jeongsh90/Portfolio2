@@ -185,9 +185,8 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 .Profile{padding:100px 0; overflow: hidden; overflow-y: auto;}
 .Profile::-webkit-scrollbar{width:0;}
 .Profile .scroll{position: fixed; right:25px; top:95px; width:8px; height:calc(100vh - 120px); border-radius: 100px; background: rgba(255, 255, 255, .1);; opacity: 1 !important; z-index: 10;}
-.Profile .scroll span { display: block; width: 100%; height: 50px; background: #ff5555; border-radius: 4px; transition: height 0.2s linear; cursor: pointer;}
+.Profile .scroll span { display: block; width: 100%; background: #ff5555; border-radius: 4px; transition: height 0.2s linear; cursor: pointer;}
 .Profile .container{display: flex; flex-direction: column; width:100%; padding-left:calc(15% + 350px); padding-right:15%;}
-/* .Profile .content{min-height:75vh;} */
 .Profile .content1{display: flex;  gap:75px;}
 .Profile .content1 .img-box{display: flex; width:50%;}
 .Profile .content1 .img-box img{aspect-ratio: 459 / 613;}
@@ -217,3 +216,23 @@ header .btn-group a:hover svg{color:var(--dark-1000);}
 .Profile .content3 ul li .day{width:65px; color:var(--dark-500)}
 .Profile .content3 ul li p{font-size:24px; white-space: nowrap;}
 
+.Introduction{padding:100px 0; overflow: hidden; overflow-y: auto;}
+.Introduction::-webkit-scrollbar{width:0;}
+.Introduction .scroll{position: fixed; right:25px; top:95px; width:8px; height:calc(100vh - 120px); border-radius: 100px; background: rgba(255, 255, 255, .1);; opacity: 1 !important; z-index: 10;}
+.Introduction .scroll span { display: block; width: 100%; background: #ff5555; border-radius: 4px; transition: height 0.2s linear; cursor: pointer;}
+.Introduction .container{display: flex; flex-direction: column; width:100%; padding-left:calc(15% + 350px); padding-right:15%;}
+.Introduction .content{margin-bottom:100px;}
+.Introduction .content:last-child{margin:0;}
+.Introduction .content1{display: flex; flex-direction: column; gap:50px; padding:100px 0;}
+.Introduction .content1 h2{font-size:32px; font-weight: 700;}
+.Introduction .content1 p{line-height: 1.8;}
+.Introduction .content1 i{display: inline-flex; width:15px; height:4px; margin-left:10px; background: var(--red-Base); animation: tit-dot .75s linear infinite;}
+@keyframes tit-dot { 0%{opacity: 0;} 100%{opacity: 1;} }
+.Introduction .content1 p{ font-size:21px; color:var(--dark-700)}
+.Introduction .box {display: flex; flex-direction: column; gap:25px; padding:30px; border:1px solid var(--dark-300); background: rgba(255, 255, 255, .05); backdrop-filter: blur(10px); transition: all .3s ease;}
+.Introduction .box:hover{border-color:var(--dark-500); background: rgba(255, 255, 255, .1);;}
+.Introduction .box h2{font-size:28px; font-weight: 700;}
+.Introduction .box p{line-height: 1.8; color:var(--dark-700);}
+.Introduction .box p b{color:var(--dark-900)}
+.Introduction .outro{display: flex; align-items: center; justify-content: center;}
+.Introduction .outro h2{text-align: center; font-weight: 900; font-size:24px;}
